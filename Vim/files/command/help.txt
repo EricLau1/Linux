@@ -1,0 +1,2 @@
+:help ☞  entra no modo de ajuda geral
+:help nome_do_comando ☞  entra no modo de ajuda a partir do comando informado 

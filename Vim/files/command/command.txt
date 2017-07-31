@@ -1,0 +1,10 @@
+O modo de comandos é a tela inicial do Vim.
+
+Não é possível usar o mouse no Vim do Terminal.
+
+A maioria dos comandos serão feitos dessa maneira:
+
+:comando
+
+Digite dois pontos(:) e nome do comando.
+

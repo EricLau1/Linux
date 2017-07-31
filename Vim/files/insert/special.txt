@@ -1,0 +1,17 @@
+Para inserir um caractere especial,
+é necessário estar no modo de Inserção.
+Tecle [Ctrl]+[k] e o vim irá esperar o codigo do caractere especial.
+Para ver todos os códigos dos caracteres especiais,
+Entre no modo de comando e digite o comando :digraphs
+Este comando irá mostrar a tabela com todos os codigos.
+O codigo do caracter aparece na primeira coluna.
+A segunda coluna mostra como ele é.
+
+Exemplos:
+
+[>]+[H] equivale à ☞
+[P]+[3] equivale à Ϡ
+[u]+[4] equivale à ㄨ
+[F]+[m] equivale à ♀
+[M]+[l] equivale à ♂
+[H]+[c] equivale à ♡

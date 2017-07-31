@@ -1,0 +1,7 @@
+Comandos para Sair
+Comandos para Salvar
+Comandos de Ajuda
+Comandos de Movimentação
+Numeração de Linhas
+Modificando e Apagando
+Copiar, Recortar, Colar

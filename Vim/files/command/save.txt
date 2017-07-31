@@ -1,0 +1,4 @@
+:w ☞  salvar 
+:wq ☞  salvar e sair
+:x ☞  salvar e sair
+:ZZ ☞  salvar e sair

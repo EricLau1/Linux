@@ -1,0 +1,14 @@
+[y]+numero ☞  Ao clicar em [y] + um numero. A linha atual,
+             será copiada, e mais N linhas equivalente ao
+             numero digitado.
+[y]+[w] ☞  copia uma palavra inteira
+[y]+[y] ☞  copia a linha inteira
+[Y] ☞  copia a linha inteira
+[p] ☞  cola após o cursor
+[P] ☞  cola antes do cursor
+[d]+[d] ☞  recorta a linha atual
+[d]+[w] ☞  recorta a palavra a partir do cursor
+numero+[d][d] ☞  recorta a linha atual e mais N linhas,
+              equivalente ao numero digitado.
+[D] ☞  recorta a partir do cursor até o final da linha
+[c][c] ☞  corta a linha atual inteira e entrar no mode de Inserção

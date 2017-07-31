@@ -1,0 +1,3 @@
+:q ☞  sair do vim
+
+:q! ☞  sair sem salvar

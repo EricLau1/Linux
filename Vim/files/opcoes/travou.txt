@@ -1,0 +1,2 @@
+[Ctrl]+[s] ☞  Bloqueia o Vim
+[Crtl]+[q] ☞  Desbloqueia o Vim

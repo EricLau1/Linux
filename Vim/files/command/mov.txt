@@ -1,0 +1,23 @@
+[h] ☞  move o cursor 1 caractere para esquerda
+[j] ☞  move o cursor 1 caractere para baixo
+[k] ☞  move o cursor 1 caractere para cima
+[l] ☞  move o cursor 1 caractere para direita
+[r] ☞  substitui um caractere sob o cursor
+    *Variação ~ Ao digitar um numero + a tecla [r] e + uma letra.
+     O numero será a quantidade de letras a que serão substituidas,
+     pela letra que você digitou a partir do cursor.
+[w] ☞  move o cursor para o inicio da proxima palavra
+[b] ☞  move o cursor para o inicio da palavra anterior
+[H] ☞  move o cursor para o começo da Tela
+[L] ☞  move o cursor para o final da Tela
+[G] ☞  move o cursor para o inicio da ultima linha do arquivo
+    *Variação ~ Ao digitar um numero + a tecla [G].
+     O numero será a linha do arquivo que o cursor irá mover.
+     Exemplo: 1+[G] ☞  vai para a primeira linha  do arquivo.
+[0] ☞  move o cursor para o inicio da linha atual
+[^] ☞  move o cursor para o primeiro caractere da linha que nao seja espaço em branco
+[$] ☞  move o cursor para o final da linha atual
+[Ctrl]+[u] ☞  move o cursor meia tela para cima
+[Ctrl]+[d] ☞  move o cursor meita tela para baixo
+[Ctrl]+[g] ☞  informa a quantidade de linhas no arquivo, 
+           e a posição atual do cursor em porcentagem   

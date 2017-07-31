@@ -1,0 +1,15 @@
+[J] ☞  Junta a linha atual com a linha que está abaixo
+[~] ☞  Modifica o caractere para Maiusculo ou Minusculo
+    *Variação ~ Ao digitar um numero mais a tecla [~].
+     O numero irá indicar a quantidade de caracteres,
+     que serão afetados pelo comando.
+[x] ☞  Apaga o caractere sob o cursor
+    *Variação ~ Ao digitar um numero mais a tecla [x].
+     O numero irá a quantidade de caracteres que será,
+     apagado a partir do cursor
+[X] ☞  Apaga o caractere a esquerda do cursor
+    *Variação ~ numero + [X] faz o mesmo efeito anterior
+[s] ☞  Apaga o caractere abaixo do cursor e entra no modo de Inserção
+[S] ☞  Apaga a linha atual inteira e entra no modo de Inserção
+[u] ☞  Desfaz o ultimo comando 
+[Ctrl]+[r] ☞  refaz o ultimo comando desfeito pelo [u]

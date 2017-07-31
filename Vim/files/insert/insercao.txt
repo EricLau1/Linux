@@ -1,0 +1,6 @@
+[a] ☞  começa um caractere a frente do caractere sob o cursor
+[A] ☞  começa com o cursor no final da linha atual
+[o] ☞  cria uma nova linha abaixo da linha atual
+[O] ☞  cria uma nova linha acima da linha atual
+[i] ☞  começa a partir de onde estiver o cursor
+[I] ☞  começa com o cursor no inicio da linha

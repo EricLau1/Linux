@@ -1,0 +1,2 @@
+:set number ☞  ativa a numeração de linhas
+:set nonumber ☞  desativa a numeração de linhas
