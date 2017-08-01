@@ -22,9 +22,9 @@ void Especial();
 void getSexo(string);
 
 void menu(){
-  
+
    char c;
-  
+
    cout << "Como usar o Vim - Editor de Textos" << endl;
    cout << "\nAbra o terminal: [Ctrl] + [alt] + [t]" << endl;
    cout << "\nDigite vim e o nome do arquivo que deseja abrir/criar" << endl;
@@ -34,12 +34,12 @@ void menu(){
    cin >> nome;
    setbuf(stdin, NULL);
    string sexo;
-   cout << "Informe seu sexo: (F/M) ";
+   cout << "\t\tInforme seu sexo: (F/M) ";
    cin >> sexo;
    setbuf(stdin, NULL);
    system("clear");
    while(1){
-      cout << "Bem vindo ao Vim Menu, " << nome << "!☺ ";
+      cout << "Bem vindo ao Vim Menu, " << nome << "!☺";
       getSexo(sexo);
       cout << "\nOpções: \n" << endl;
       carregarOpcoes();
@@ -55,7 +55,7 @@ void menu(){
 
 void getSexo(string s){
    if(s == "F" || s == "f"){
-      cout << " ♀" << endl; 
+      cout << " ♀" << endl;
    }else{
       cout << " ♂" << endl;
    }
@@ -75,7 +75,7 @@ bool Sair(char c){
       if(c == 's' || c == 'S'){
            system("clear");
 	   return true;
-       } 
+       }
    }
    return false;
 }
@@ -92,13 +92,13 @@ void carregarOpcoes(){
    }else{
         i = 1;
  	while(!feof(arq)){
-	  op = fgets(linha, MAX, arq); // fgets le 99 caracteres ou até um \n 
+	  op = fgets(linha, MAX, arq); // fgets le 99 caracteres ou até um \n
           if(op != NULL){
              printf("[%d] ☞  %s", i, op);
              i++;
 	  }
 	}
-       
+
         printf("\n[Q] ☞  Quit\n");
    }
    fclose(arq);
@@ -109,24 +109,24 @@ void CommandMode(){
    cout << "Ao entrar no Vim ele ja estará no modo de comandos." << endl;
    cout << "Os comandos começarão com dois pontos(:) e o nome do comando.\n";
    cout << "Exemplo ☞  :help" << endl;
-  
-  
+
+
    char c;
    while(1){
      cout << "\nModo de Comandos\n" << endl;
      cout << "\nOpções:" << endl;
-     
+
      CommandOptions();
-     
-     cout << "[Q] ☞  Quit" << endl; 
+
+     cout << "[Q] ☞  Quit" << endl;
      cout << "\nEscolha ~:> ";
      cin >> c;
-     
+
      if(Sair(c)) break;
-     func2(c);    
+     func2(c);
      system("clear");
    }
-   
+
 }
 
 void CommandOptions(){
@@ -206,7 +206,7 @@ void func2(char c){
        cout << "..." << endl;
      }
    }//fim switch
-   
+
 }
 
 void InsertMode(){
@@ -234,7 +234,7 @@ void InsertMode(){
            Especial();
 	   break;
         }
-     }// fim switch 
+     }// fim switch
      system("clear");
    }// fim while
 
