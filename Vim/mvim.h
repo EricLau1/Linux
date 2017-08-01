@@ -34,7 +34,7 @@ void menu(){
    cin >> nome;
    setbuf(stdin, NULL);
    string sexo;
-   cout << "\t\tInforme seu sexo: (F/M) ";
+   cout << "\tInforme seu sexo: (F/M) ";
    cin >> sexo;
    setbuf(stdin, NULL);
    system("clear");
